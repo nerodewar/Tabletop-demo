@@ -145,12 +145,16 @@
     }
 
     .board-image {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
-      pointer-events: none;
-    }
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+  display: block;
+  pointer-events: none;
+
+  transform: scale(1.8) translateY(-8%);
+  transform-origin: center center;
+}
 
     .board-fallback {
       position: absolute;
