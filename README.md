@@ -1,6 +1,6 @@
 # Gods of War — Collapsible Mats / Max Board Build
 
-Upload these files loose in the GitHub Pages repo root:
+Uploaded these files loose in the GitHub Pages repo root:
 
 - index.html
 - gow.png
