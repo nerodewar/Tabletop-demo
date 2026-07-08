@@ -48,7 +48,7 @@
       height: 100vh;
       height: 100dvh;
       display: grid;
-      grid-template-rows: auto 1fr 190px;
+      grid-template-rows: auto 1fr 145px;
       gap: 10px;
       padding: max(10px, env(safe-area-inset-top)) 10px max(10px, env(safe-area-inset-bottom));
       overflow: hidden;
@@ -144,7 +144,7 @@
       background-size: 28px 28px, 28px 28px, auto;
     }
 
-    .board-image {
+     .board-image {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -152,7 +152,7 @@
   display: block;
   pointer-events: none;
 
-  transform: scale(1.8) translateY(-8%);
+  transform: scale(1.18);
   transform-origin: center center;
 }
 
@@ -361,12 +361,13 @@
     .troop-order-button[data-order="storm"] { border-left: 8px solid #7e9ee8; }
     .troop-order-button[data-order="shadow"] { border-left: 8px solid #6c4c91; }
 
-    .player-mats {
-      min-height: 0;
-      display: grid;
-      grid-template-columns: 1fr 250px 1fr;
-      gap: 10px;
-    }
+   .player-mats {
+  min-height: 0;
+  height: 145px;
+  display: grid;
+  grid-template-columns: 1fr 250px 1fr;
+  gap: 10px;
+}
 
     .player-mat,
     .discard-zone {
